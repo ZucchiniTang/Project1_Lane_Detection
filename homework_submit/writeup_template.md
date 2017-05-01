@@ -1,11 +1,11 @@
-#**Finding Lane Lines on the Road** 
+# Finding Lane Lines on the Road
 
-##Writeup 
+## Writeup 
 
 
 ### Reflection
 
-###1.  Describe my pipeline.
+### 1.  Describe my pipeline.
 
 My pipeline consist of 8 steps. Following are steps and result images of every step.
 
@@ -32,7 +32,7 @@ My pipeline consist of 8 steps. Following are steps and result images of every s
 8) Read vedio and then produce new result video
 
 
-###2. Potential shortcomings with my current pipeline
+### 2. Potential shortcomings with my current pipeline
 
 1) Curve line. Because of using fix mask(interesting region), when ahead line is curve, recofnition accuracy will decline and have many recognition error, just like one of my output result/challenge.mp4.
 
@@ -41,6 +41,6 @@ My pipeline consist of 8 steps. Following are steps and result images of every s
 3) Time-consuming. The processing time of 251 flame or images is 19.2s.
 
 
-###3. Possible improvements suggestion of pipeline
+### 3. Possible improvements suggestion of pipeline
 
 A possible improvement would be use different color channel or HSI color threshold, not just use grayscale image.
